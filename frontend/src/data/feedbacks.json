@@ -1,0 +1,14 @@
+[
+    {
+        "image": "/images/profil/woody.png",
+        "name": "Nicolas",
+        "position": "Mentor de octobre 2022 à février 2024",
+        "comment" : "J'ai eu le privilège d'être le mentor de Tristan durant le début de son alternance, où il a brillé par son aptitude à maîtriser rapidement de nouvelles technologies et par son engagement exceptionnel dans chaque projet. Sa capacité à résoudre des problèmes complexes et sa passion pour le développement font de lui un très bon élément. Je le recommande vivement."
+    },
+    {
+        "image": "/images/profil/spiderman.png",
+        "name": "Marc",
+        "position": "Mentor de février 2024 à avril 2024",
+        "comment" : "J'ai mentoré Tristan sur la fin de son parcours. J'ai été impressionné par la qualité professionnelle de ses designs, son travail témoigne d'une très bonne compréhension de l'intégration web, d'une conception centrée sur l'utilisateur et d'une grande créativité."
+    }
+]

@@ -1,0 +1,96 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 100px 0px;
+
+    row-gap: 50px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    row-gap: 20px;
+
+    width: 600px;
+    padding: 0px 80px;
+
+    &> label {
+        color: #252525;
+    }
+
+    &> input {
+        width: 100%;
+        height: 40px;
+
+        border: 1px solid #c8c8c8;
+        border-radius: 5px;
+
+        padding: 0px 20px;
+        box-sizing: border-box; 
+
+        &:hover {
+            border: 1px solid #252525;
+        }
+        &:focus {
+            border: 1px solid #252525;
+        }
+        
+    }
+
+    &> textarea {
+        width: 100%;
+        height: 300px;
+        resize: none;
+
+        border: 1px solid #c8c8c8;
+        border-radius: 5px;
+
+        padding: 10px 20px;
+        box-sizing: border-box; 
+
+        &:hover {
+            border: 1px solid #252525;
+        }
+        &:focus {
+            border: 1px solid #252525;
+        }
+    }
+}
+
+.form__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    box-sizing: border-box; 
+}
+
+.form__submit {
+    width: 100%;
+    font-size: 18px;
+
+    background-color: #252525;
+
+    color: #FFF;
+
+    height: 40px;
+
+    border-style: none;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: #626262;
+    }
+}

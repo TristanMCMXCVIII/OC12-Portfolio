@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    box-sizing: border-box; 
+
+    background-color: #252525;
+
+    padding: 50px 0px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 100%;
+    max-width: 1440px;
+    box-sizing: border-box; 
+
+    padding: 0px 80px;
+
+    row-gap: 25px;
+}
+
+.footer__img {
+    height: 40px;
+    width: auto;
+}
+
+.footer__txt {
+    color: #FFFFFF;
+    font-size: 24px;
+}

@@ -1,0 +1,21 @@
+.logo-container {
+    display: flex;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    width: 200px; 
+    height: 60px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+    object-fit: contain;
+  }

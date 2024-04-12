@@ -1,0 +1,40 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 100px 0px;
+
+    row-gap: 50px;
+}
+
+.skills__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+
+    padding: 0px 80px;
+
+    background-color: #F0F0F0;
+
+    row-gap: 50px;
+}
+
+.skills__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+    gap: 10px;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+

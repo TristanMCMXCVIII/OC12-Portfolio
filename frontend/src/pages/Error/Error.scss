@@ -1,0 +1,33 @@
+.error {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 250px 0px;
+
+    row-gap: 50px;
+
+}
+
+.error__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error__main {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.error__sub {
+    font-size: 28px;
+    color: #626262;
+    margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+.tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: nowrap;
+
+    height: 28px;
+    min-width: 50px;
+
+    background-color: #F4F4F4;
+
+    border: 1px solid #C8C8C8;
+    border-radius: 20px;
+
+    padding: 0px 10px;
+}
+
+.tag__name {
+    font-size: 14px;
+}

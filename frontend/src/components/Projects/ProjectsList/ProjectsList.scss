@@ -1,0 +1,6 @@
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* répète 3x 1 fraction */
+    gap: 25px; /* Espacement entre les cartes */
+
+}

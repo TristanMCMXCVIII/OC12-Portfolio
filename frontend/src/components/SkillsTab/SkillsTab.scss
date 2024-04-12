@@ -1,0 +1,29 @@
+.skills-tab {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 20px; 
+
+    width: 100%;
+}
+
+.skill__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    row-gap: 10px;
+    padding: 10px;
+
+    min-width: 100px;
+
+    background-color: #F4F4F4;
+
+    border: 1px solid #C8C8C8;
+    border-radius: 10px;
+
+    &> img {
+        height: 60px;
+        width: auto;
+    }
+}

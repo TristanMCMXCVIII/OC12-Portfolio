@@ -1,0 +1,469 @@
+[
+    {
+        "id": "proj_11",
+        "title": "Projet 11 : Implémentez le front-end d’une application bancaire avec React",
+        "description": "Application web d'une néaobanque : ArgentBank",
+        "client": "ArgentBank",
+        "start_date": "Février 2024",
+        "type": "Développement",
+        "mentor": "Marc",
+        "number": 11,
+        "logo-small": "/images/project11/logo11_1x.png",
+        "logo": "/images/project11/logo11_2x.png",
+        "thumbnail": "/images/project11/thumbnail11.jpg",
+        "images": [
+            "/images/project11/picture11_1.jpg",
+            "/images/project11/picture11_2.jpg",
+            "/images/project11/picture11_3.jpg",
+            "/images/project11/picture11_4.jpg",
+            "/images/project11/picture11_5.jpg",
+            "/images/project11/picture11_6.jpg",
+            "/images/project11/picture11_7.jpg"
+        ],
+        "missions": [
+            "J’ai intégré Argent Bank en tant que développeur front-end. ",
+            "Argent Bank est une néo bank",
+            "Je travaillais avec Mila, cheffe de projet et Avery, CTO",
+            "Mon premier objectif était de reproduire le site statique en app React",
+            "Intégrer Redux et gérer l’authentification des utilisateurs",
+            "Créer un fichier Swagger à destination du développeur backend afin de nous fournir les endpoints necessaire pour la page de connexion : compte - transactions.."
+        ],
+        "learn": [
+            "Intégrer Redux et utiliser redux toolkit",
+            "Utiliser des reducers, des slices, des thunks pour gérer le state de l’application",
+            "Créer un fichier swagger avec Yaml"
+        ],
+        "skills": [            
+            {
+                "title": "React",
+                "image": "/images/skills/react.png",
+                "description": "Framework frontend"
+            },
+            {
+                "title": "Redux",
+                "image": "/images/skills/redux.png",
+                "description": "Management de state"
+            }
+        ]
+    },
+    {
+        "id": "proj_10",
+        "title": "Projet 10 : Débugguez le site d’une agence évènementiel",
+        "description": "Debugage du site d'une agence d'évènementiel : 724Events",
+        "client": "724 Events",
+        "start_date": "Janvier 2024",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 10,
+        "logo-small": "/images/project10/logo10_1x.png",
+        "logo": "/images/project10/logo10_2x.png",
+        "thumbnail": "/images/project10/thumbnail10.jpg",
+        "images": [
+            "/images/project10/picture10_1.jpg",
+            "/images/project10/picture10_2.jpg",
+            "/images/project10/picture10_3.jpg",
+            "/images/project10/picture10_4.jpg",
+            "/images/project10/picture10_5.jpg"
+        ],
+        "missions": [
+            "J’ai été contacté par l’agence d’évènementielle 724 Events en tant que développeur front-end freelance. L’agence souhaite publier une nouvelle version de son site vitrine ",
+            "Un premier freelance a commencer l’intégration mais il a dû abandonner le projet.",
+            "Le site est fonctionnel mais quelques bugs entravent le bon usage par les visiteurs ",
+            "Mon but était donc de trouver et résoudre tous les derniers bugs de l’application. Ainsi que de remplir le cahier de recette"
+        ],
+        "learn": [
+            "L’origine des bugs potentiels",
+            "Les outils de deboguage : console, inspecteur, débogueur, onglet network",
+            "Adopter une logique de déboguage : observer, écrire un test répétable, tester, résoudre",
+            "Utiliser les react Dev Tools ",
+            "Faire des tests d’intégration et des tests unitaires"
+        ],
+        "skills": [            
+            {
+                "title": "React",
+                "image": "/images/skills/react.png",
+                "description": "Framework frontend"
+            }
+        ]
+    },
+    {
+        "id": "proj_09",
+        "title": "Projet 9 : Optimisez le référencement d’un site de photographie",
+        "description": "Portfolio d'une photographe : Nina Carducci",
+        "client": "Nina Carducci",
+        "start_date": "Novembre 2023",
+        "type": "Refactoring",
+        "mentor": "Nicolas",
+        "number": 9,
+        "logo-small": "/images/project9/logo9_1x.png",
+        "logo": "/images/project9/logo9_2x.png",
+        "thumbnail": "/images/project9/thumbnail9.jpg",
+        "images": [
+            "/images/project9/picture9_1.jpg",
+            "/images/project9/picture9_2.jpg",
+            "/images/project9/picture9_3.jpg",
+            "/images/project9/picture9_4.jpg",
+            "/images/project9/picture9_5.jpg",
+            "/images/project9/picture9_6.jpg"
+        ],
+        "missions": [
+            "En tant que développeur freelance, j’ai proposé mes services d’optimisation SEO à Nina Carducci qui a accepté mon offre",
+            "Pour améliorer les performance, le référencement et l’accessibilité de son site, je lui ai proposé à l’aide de l’audit LightHouse et de l’audit Wave",
+            "Optimisation du site, tant sur le SEO que sur les performances",
+            "Mettre en place un référencement local avec Schema.org",
+            "Ajouter des métas pour les réseaux sociaux",
+            "Améliorer l’accessibilité du site",
+            "Produire un rapport d’optimisation des changements effectués et leurs impactes"
+        ],
+        "learn": [
+            "Audit LightHouse pour la performance, le référencement et l’accessibilité d’un site",
+            "L’audit Wave pour aller plus en profondeur sur l’accessibilité du site",
+            "Appris le référencement local"
+        ],
+        "skills": [            
+            {
+                "title": "LightHouse",
+                "image": "/images/skills/lighthouse.png",
+                "description": "Audi performance"
+            },
+            {
+                "title": "Wave",
+                "image": "/images/skills/wave.png",
+                "description": "Ausit accessibilité"
+            }
+        ]
+    },
+    {
+        "id": "proj_08",
+        "title": "Projet 8 : Créer une application web de location immobilière avec React",
+        "description": "marketplace de réservation d'hébergement entre particuliers",
+        "client": "Kasa",
+        "start_date": "Septembre 2023",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 8,
+        "logo-small": "/images/project8/logo8_1x.png",
+        "logo": "/images/project8/logo8_2x.png",
+        "thumbnail": "/images/project8/thumbnail8.jpg",
+        "images": [
+            "/images/project8/picture8_1.jpg",
+            "/images/project8/picture8_2.jpg",
+            "/images/project8/picture8_3.jpg",
+            "/images/project8/picture8_4.jpg",
+            "/images/project8/picture8_5.jpg",
+            "/images/project8/picture8_6.jpg"
+        ],
+        "missions": [
+            "J’ai travaillé en tant que développeur front-end freelance pour Kasa, une entreprise de location d’appartement entre particuliers ",
+            "J’ai collaboré avec Laura, la CTO, qui a lancé une refonte totale de l’application de ASP.NET à une stack MERN.",
+            "L’objectif est de développer l’ensemble du front-end (toutes les pages) avec React et React Router de manière responsive selon les design Figma fournis",
+            "Techniquement, la page principale contient tous les items, on est dirigé vers une page de détail de l’item lorsqu’on clique dessus. Cette page a un caroussel qu’on doit faire fonctionner. Il y a une page à propos et une page err 404 si il y a une erreur de routage ou un id d’item incorrect pour le détail"
+        ],
+        "learn": [
+            "Concevoir un projet React : démarrage, architecture ",
+            "Utiliser des librairie React : React Router Dom",
+            "Utiliser des Hooks de react",
+            "Tester une application React"
+        ],
+        "skills": [            
+            {
+                "title": "Github",
+                "image": "/images/skills/github.png",
+                "description": "Dépot distant"
+            },
+            {
+                "title": "React",
+                "image": "/images/skills/react.png",
+                "description": "Framework frontend"
+            }
+        ]
+    },
+    {
+        "id": "proj_07",
+        "title": "Projet 7 : Planifier le développement du site de votre client",
+        "description": "Plateforme pour mettre en forme numérique ses menus. Puis, les mettre en ligne, sur les réseaux sociaux ou les plateformes de livraison",
+        "client": "Qwenta",
+        "start_date": "Juin 2023",
+        "type": "Organisation",
+        "mentor": "Nicolas",
+        "number": 7,
+        "logo-small": "/images/project7/logo7_1x.png",
+        "logo": "/images/project7/logo7_2x.png",
+        "thumbnail": "/images/project7/thumbnail7.jpg",
+        "images": [
+            "/images/project7/picture7_1.jpg",
+            "/images/project7/picture7_2.jpg",
+            "/images/project7/picture7_3.jpg",
+            "/images/project7/picture7_4.jpg",
+            "/images/project7/picture7_5.jpg",
+            "/images/project7/picture7_6.jpg"
+        ],
+        "missions": [
+            "J’étais développeur web au sein de l’agence Webagencia. ",
+            "Ma mission sur ce projet fut de mener, préparer et planifier le projet de développement d’un site",
+            "Qwenta, un de nos client, souhaite développer un “Menu Maker” → site permettant aux restaurateurs de mettre en page leurs menus sur internet et de les distribue sur des plateforme de livraison en ligne : deliveroo, les réseaux sociaux : instagram, ou tout simplement, les imprimer",
+            "J’ai collaboré avec Soufiane, Product Owner afin de mettre en place des méthodes de travail agile. Et j’ai travaillé avec John, chef de projet chez Qwenta",
+            "Plus précisément, je devais : -Développer un système de veille - déterminer les spécifications techniques - organiser la gestion de projet du développement du site (notamment le kanban)"
+        ],
+        "learn": [
+            "Faire de la veille et notamment de la veille technique",
+            "Comprendre et pratiquer des techniques issues des méthodes agiles",
+            "Utiliser de manière approfondie Notion (tableau kanban…)",
+            "Concevoir un backlog",
+            "Comprendre le sprint, les différentes cérémonies et activités"
+        ],
+        "skills": [            
+            {
+                "title": "Notion",
+                "image": "/images/skills/notion.png",
+                "description": "Travail collaboratif"
+            },
+            {
+                "title": "SCRUM",
+                "image": "/images/skills/scrum.png",
+                "description": "Méthodes agiles"
+            }
+        ]
+    },
+    {
+        "id": "proj_06",
+        "title": "Projet 6 : Créer une page web dynamique avec JS",
+        "description": "Portfolio de la photographe évènementiel Sophie Bluel",
+        "client": "Sophie Bluel",
+        "start_date": "Avril 2023",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 6,
+        "logo-small": "/images/project6/logo6_1x.png",
+        "logo": "/images/project6/logo6_2x.png",
+        "thumbnail": "/images/project6/thumbnail6.jpg",
+        "images": [
+            "/images/project6/picture6_1.jpg",
+            "/images/project6/picture6_2.jpg",
+            "/images/project6/picture6_3.jpg",
+            "/images/project6/picture6_4.jpg",
+            "/images/project6/picture6_5.jpg",
+            "/images/project6/picture6_6.jpg",
+            "/images/project6/picture6_7.jpg",
+            "/images/project6/picture6_8.jpg"
+        ],
+        "missions": [
+            "J’étais développeur front-end pour l’agence ArchiWebos et j’ai été envoyé en renfort au sein d’une équipe qui travaille sur le site portfolio d’une architecte d’intérieur",
+            "Réaliser les missions restantes dans le kanban (de front-end) : récupérer les données dynamiquement via API, trie des projets par catégorie, connexion, ajouter des modales pour gérer les projets, créer un formulaire d’ajout de projet"
+        ],
+        "learn": [
+            "Créer des pages web dynamique avec JS",
+            "Manipuler les données avec des listes, map…",
+            "Réaliser des calls APIs avec fetch",
+            "Stocker de la données dans le local storage",
+            "Ajouter de nouvelles librairies",
+            "Utiliser un fichier Swagger",
+            "Installer Node",
+            "Créer des modales"
+        ],
+        "skills": [            
+            {
+                "title": "JS",
+                "image": "/images/skills/js.png",
+                "description": "Logique web"
+            },
+            {
+                "title": "Swagger",
+                "image": "/images/skills/swagger.png",
+                "description": "Documentation API"
+            }
+        ]
+    },
+    {
+        "id": "proj_05",
+        "title": "Projet 5 : Premiers pas sur le language JS",
+        "description": "Site web d'une imprimerie familiale",
+        "client": "Print It",
+        "start_date": "Mars 2023",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 5,
+        "logo-small": "/images/project5/logo5_1x.png",
+        "logo": "/images/project5/logo5_2x.png",
+        "thumbnail": "/images/project5/thumbnail5.jpg",
+        "images": [
+            "/images/project5/picture5_1.jpg",
+            "/images/project5/picture5_2.jpg"
+        ],
+        "missions": [
+            "En tant que développeur freelance j’ai décroché une offre afin de dynamiser le site statique d’une imprimerie familiale nommée Print It",
+            "L’objectif est de concevoir un carrousel dynamique complet en intégrant du Javascript"
+        ],
+        "learn": [
+            "La programmation avec Javascript",
+            "La programmation orienté objet",
+            "Modifier un élément du DOM",
+            "Ecouter des évènements"
+        ],
+        "skills": [
+            {
+                "title": "Git",
+                "image": "/images/skills/figma.png",
+                "description": "Gestionnaire de version"
+            },
+            {
+                "title": "GitHub",
+                "image": "/images/skills/github.png",
+                "description": "Dépot distant"
+            },
+            {
+                "title": "JS",
+                "image": "/images/skills/js.png",
+                "description": "Logique web"
+            }
+        ]
+    },
+    {
+        "id": "proj_04",
+        "title": "Projet 4 : Améliorer l’interface d’un site avec des animations CSS",
+        "description": "Répertorie les retaurants gastronomiques et permet de composer son propre menu",
+        "client": "OhMyFood",
+        "start_date": "Février 2023",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 4,
+        "logo-small": "/images/project4/logo4_1x.png",
+        "logo": "/images/project4/logo4_2x.png",
+        "thumbnail": "/images/project4/thumbnail4.jpg",
+        "images": [
+            "/images/project4/picture4_1.jpg",
+            "/images/project4/picture4_2.jpg",
+            "/images/project4/picture4_3.jpg",
+            "/images/project4/picture4_4.jpg"
+        ],
+        "missions": [
+            "J’ai intégré Ohmyfood en tant que développeur junior.",
+            "Ohmyfood est une startup New Yorkaise qui souhaite percer dans le marché de la restauration à Paris",
+            "Mon objectif était de développer un site en “mobile first” qui répertorie les menus de restaurants gastronomiques et permets aux clients de composer leurs menus",
+            "Je dispose pour cela des maquettes figma en mobile, et desktop.",
+            "Je devais développer avec le préprocesseur CSS, SASS et créer divers animations CSS afin de rendre le site plus attrayant",
+            "Enfin, l’équipe travaille sur GitHub donc je devrais utiliser Git et GitHub pour collaborer sur ce projet"
+        ],
+        "learn": [
+            "Utiliser correctement les sélecteurs",
+            "Ecrire des sélecteurs avec la convention BEM (bloc - element - modificator)",
+            "Utiliser SASS. Son architecture, son nesting, ses variables/mixins, le responsive",
+            "Créer des animations CSS. Compréhension des 12 principes de l’annimations → compléxifier les animations, avec fonction de timing. Optimiser les animations",
+            "Utiliser chrome dev tools pour analyser nos animations",
+            "Utiliser des keyframes",
+            "Git et GitHub"
+     
+        ],
+        "skills": [
+            {
+                "title": "Git",
+                "image": "/images/skills/figma.png",
+                "description": "Gestionnaire de version"
+            },
+            {
+                "title": "GitHub",
+                "image": "/images/skills/github.png",
+                "description": "Dépot distant"
+            },
+            {
+                "title": "SASS",
+                "image": "/images/skills/sass.png",
+                "description": "Préprocesseur CSS"
+            }
+        ]
+    },
+    {
+        "id": "proj_03",
+        "title": "Projet 3 : Page d’accueil d’une agence de voyage",
+        "description": "Application web et mobile pour réserver un appartement et découvrir les points d'intérets autour",
+        "client": "Booki",
+        "start_date": "Decembre 2022",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 3,
+        "logo-small": "/images/project3/logo3_1x.png",
+        "logo": "/images/project3/logo3_2x.png",
+        "thumbnail": "/images/project3/thumbnail3.jpg",
+        "images": [
+            "/images/project3/picture3_1.jpg",
+            "/images/project3/picture3_2.jpg",
+            "/images/project3/picture3_3.jpg",
+            "/images/project3/picture3_4.jpg"
+        ],
+        "missions": [
+            "Je suis développeur web au sein de la start-up Booki",
+            "Le site doit permettre aux usagers de trouver des hébergements et des activités dans la ville de leur choix",
+            "Je travaille avec Sarah la CTO et Loïc l’UI designer",
+            "Je devais créer la page d’accueil de Booki en HTML CSS",
+            "Intégrer l’interface responsive du site à partir des maquettes figma de loïc"
+        
+        ],
+        "learn": [
+            "Bases du language HTML et CSS",
+            "Mettre en place un environnement frontend"
+        ],
+        "skills": [
+            {
+                "title": "HTML",
+                "image": "/images/skills/html.png",
+                "description": "Organisation page"
+            },
+            {
+                "title": "CSS",
+                "image": "/images/skills/css.png",
+                "description": "Style page web"
+            },
+            {
+                "title": "FIGMA",
+                "image": "/images/skills/figma.png",
+                "description": "Source de donnée"
+            }
+        ]
+    },
+    {
+        "id": "proj_02",
+        "title": "Projet 2 : Premiers pas sur le langage HTML",
+        "description": "Mise à jour de la page web d'une association",
+        "client": "Riding Cities",
+        "start_date": "Novembre 2022",
+        "type": "Développement",
+        "mentor": "Nicolas",
+        "number": 2,
+        "logo-small": "/images/project2/logo2_1x.png",
+        "logo": "/images/project2/logo2_2x.png",
+        "thumbnail": "/images/project2/thumbnail2.jpg",
+        "images": [
+            "/images/project2/picture2_1.jpg",
+            "/images/project2/picture2_2.jpg",
+            "/images/project2/picture2_3.jpg"
+        ],
+        "missions": [
+            "J’ai rejoins l’agence Webonzaï en tant que stagiaire dévelopeur junior",
+            "Je devais mettre à jour la page web de l’association Riding Cities en intégrant de nouveaux éléments. En l’occurrence deux nouvelles sections de la page principale : les membres fondateurs et une section pour télécharger les plannings"
+        ],
+        "learn": [
+            "Intégrer du language HTML",
+            "Lier le HTML avec le CSS",
+            "Prendre en main VS Code ",
+            "Lancer un projet sur un serveur local",
+            "Utiliser Figma"
+        ],
+        "skills": [
+            {
+                "title": "HTML",
+                "image": "/images/skills/html.png",
+                "description": "Organisation page"
+            },
+            {
+                "title": "CSS",
+                "image": "/images/skills/css.png",
+                "description": "Style page web"
+            },
+            {
+                "title": "FIGMA",
+                "image": "/images/skills/figma.png",
+                "description": "Source de donnée"
+            }
+        ]
+    }
+]

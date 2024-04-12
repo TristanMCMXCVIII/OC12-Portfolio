@@ -1,0 +1,101 @@
+[
+    {
+        "title": "Redux",
+        "image": "/images/skills/redux.png",
+        "description": "Management de state",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "React",
+        "image": "/images/skills/react.png",
+        "description": "Framework frontend",
+        "stars": 5,
+        "level": "expert"
+    },
+    {
+        "title": "LightHouse",
+        "image": "/images/skills/lighthouse.png",
+        "description": "Audi performance",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "Wave",
+        "image": "/images/skills/wave.png",
+        "description": "Ausit accessibilité",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "Github",
+        "image": "/images/skills/github.png",
+        "description": "Dépot distant",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "Notion",
+        "image": "/images/skills/notion.png",
+        "description": "Travail collaboratif",
+        "stars": 5,
+        "level": "expert"
+    },
+    {
+        "title": "SCRUM",
+        "image": "/images/skills/scrum.png",
+        "description": "Méthodes agiles",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "JS",
+        "image": "/images/skills/js.png",
+        "description": "Logique web",
+        "stars": 5,
+        "level": "expert"
+    },
+    {
+        "title": "Swagger",
+        "image": "/images/skills/swagger.png",
+        "description": "Documentation API",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "Git",
+        "image": "/images/skills/figma.png",
+        "description": "Gestionnaire de version",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "SASS",
+        "image": "/images/skills/sass.png",
+        "description": "Préprocesseur CSS",
+        "stars": 3,
+        "level": "maitrise"
+    },
+    {
+        "title": "HTML",
+        "image": "/images/skills/html.png",
+        "description": "Organisation page",
+        "stars": 5,
+        "level": "expert"
+    },
+    {
+        "title": "CSS",
+        "image": "/images/skills/css.png",
+        "description": "Style page web",
+        "stars": 4,
+        "level": "avancé"
+    },
+    {
+        "title": "FIGMA",
+        "image": "/images/skills/figma.png",
+        "description": "Source de donnée",
+        "stars": 4,
+        "level": "avancé"
+    }
+    
+]
