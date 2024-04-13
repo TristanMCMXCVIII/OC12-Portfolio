@@ -26,7 +26,7 @@ const Home = ({projects, feedbacks}) => {
                 <h2>COMPETENCES</h2>
                 <img src={imageSkills} alt="dashboard of my skills" className='home__skills-img'/>
                     <Link to="/competences" className='button__primary'>                  
-                        Voir plus
+                        Voir plus 
                     </Link>
             </section>
             <section className='home__container--column'>
