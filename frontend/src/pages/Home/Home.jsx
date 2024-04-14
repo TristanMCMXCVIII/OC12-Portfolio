@@ -21,7 +21,7 @@ const Home = ({projects, feedbacks}) => {
                 <img className='home__profil' src={animojiLion} alt='animoji lion'/>
             </section>
             <section className='home__wide--column'>
-                <h2>ENTREPRISES QUI M'ON FAIT CONFIANCE</h2>
+                <h2>ENTREPRISES QUI M'ONT FAIT CONFIANCE</h2>
                 <Conveyor />
             </section>
             <section className='home__container--column'>
