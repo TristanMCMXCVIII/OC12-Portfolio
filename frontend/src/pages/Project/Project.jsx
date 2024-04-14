@@ -22,7 +22,7 @@ const Project = ({projects}) => {
         <div className='project'>
             <h2>DETAILS DU PROJET</h2>
             <section className='project__header'>
-                <img src={project.logo} alt='Logo du projet' className='project__logo'/>
+                <img src={`${process.env.PUBLIC_URL}${project.logo}`} alt='Logo du projet' className='project__logo'/>
                 <div className="project__metadata">
                     <p className="project__metadata-txt">Type de projet : {project.type}</p>
                     <p className="project__metadata-txt">Démaré en : {project.start_date}</p>
@@ -34,7 +34,7 @@ const Project = ({projects}) => {
                 <Carousel> 
                     {project.images.map((image, index) => (
                         <div>
-                            <img src={image} alt={`carousselImage-${index}`} className='project__image' key={`project${project.number}-image${index}`}/>
+                            <img src={`${process.env.PUBLIC_URL}${image}`} alt={`carousselImage-${index}`} className='project__image' key={`project${project.number}-image${index}`}/>
                         </div>
                         
                     ))}

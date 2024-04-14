@@ -6,7 +6,7 @@ const Feedback = ({feedback}) => {
     return (
         <div className='feedback'>
             <div className="feedback__header">
-                <img src={feedback.image} alt={`Profil de ${feedback.name}`} className='feedback__profil'/>
+                <img src={`${process.env.PUBLIC_URL}${feedback.image}`} alt={`Profil de ${feedback.name}`} className='feedback__profil'/>
                 <div className="feedback__metadata">
                     <p className="feedback__name" >{feedback.name}</p>
                     <p className="feedback__position" >{feedback.position}</p>

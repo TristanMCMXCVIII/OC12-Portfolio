@@ -9,7 +9,7 @@ const SkillItem = ({skill}) => {
         <div className='skill-item'>
             <div className="skill-item__infos">
                 <p className="skill-item__title">{skill.title}</p>
-                <img src={skill.image} alt={`skill item of ${skill.title}`} className="skill-item__image"/>
+                <img src={`${process.env.PUBLIC_URL}${skill.image}`} alt={`skill item of ${skill.title}`} className="skill-item__image"/>
                 <p className="skill-item__description">{skill.description}</p>
             </div>
             <div className="skill-item__level">

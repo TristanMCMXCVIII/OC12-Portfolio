@@ -9,8 +9,8 @@ const ProjectCard = ({project}) => {
     return (
         <Link to={`/project/${project.id}`} className='project-card'>
       
-                <img src={project.logo} alt={`logo projet ${project.number}`} className='project-card__logo'/>
-                <img src={project.thumbnail} alt={`thumbnail projet ${project.number}`} className='project-card__thumbnail'/>
+                <img src={`${process.env.PUBLIC_URL}${project.logo}`} alt={`logo projet ${project.number}`} className='project-card__logo'/>
+                <img src={`${process.env.PUBLIC_URL}${project.thumbnail}`} alt={`thumbnail projet ${project.number}`} className='project-card__thumbnail'/>
                 <p className='project-card__date'>{project.start_date}</p>
                 <p className='project-card__description'>{project.description}</p>
                 <div className="project-card__tags">

@@ -8,7 +8,7 @@ const SkillsTab = ({skills}) => {
             {skills.map((skill, index) => (
                 <div key={`skillsTab-${index}`} className="skill__container">
                     <p>{skill.title}</p>
-                    <img src={skill.image} alt={skill.title}/>
+                    <img src={`${process.env.PUBLIC_URL}${skill.image}`} alt={skill.title}/>
                     <p>{skill.description}</p>
                 </div>
             ))}
