@@ -6,7 +6,6 @@ import './Header.scss';
 import '../../styles/buttons.scss';
 
 import navigationImg from '../../assets/navigation.svg';
-import prevImg from '../../assets/prev.svg';
 
 import logoTN from '../../assets/TN.svg';
 
@@ -30,8 +29,7 @@ const Header = ({ toggleSidebar }) => {
     return (
         <header className="header">
             <div className="header__container">
-                <div className="header__nav-sm">
-                </div>
+                <div className="header__nav-sm"></div>
                 <NavLink to="/">
                     <img className='header__logo' src={logoTN} alt='Logo TN'/>
                 </NavLink>
