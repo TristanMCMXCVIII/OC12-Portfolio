@@ -2,6 +2,8 @@ import React from 'react';
 
 import './Skills.scss';
 
+import SkillItem from '../../components/SkillItem/SkillItem';
+
 const Skills = ({skills}) => {
 
     return (
@@ -13,9 +15,7 @@ const Skills = ({skills}) => {
 
                 <div className="skills__grid">
                     {skills.map((skill, index) => (
-                        <div key={`skill-element-${index}`} className="skills_element">
-                            {skill.title}
-                        </div>
+                        <SkillItem key={`skill-item-${index}`} skill={skill}/>
                     ))}
                 </div>
             </section>

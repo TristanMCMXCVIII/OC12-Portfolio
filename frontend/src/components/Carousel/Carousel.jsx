@@ -21,7 +21,7 @@ const Carousel = ({children}) => {
       <div className="carousel">
         <div className="carousel__container">
             {React.Children.map(children, (child, index) =>
-                React.cloneElement(child, {
+                React.cloneElement(child, { 
                     className: `carousel__slide ${index === currentIndex ? 'active' : ''}`,
                     key: `carousel_slide${index}`
                 }

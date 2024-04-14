@@ -1,0 +1,51 @@
+.button__primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 40px;
+    padding: 0px 20px;
+
+    border-radius: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+
+    background-color: #252525;
+
+    &:hover {
+        background-color: #626262;
+    }
+
+}
+
+.button__primary--lg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+    padding: 0px 50px;
+
+    border-radius: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+
+    background-color: #252525;
+
+    &:hover {
+        background-color: #626262;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+}

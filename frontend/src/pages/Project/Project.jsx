@@ -26,15 +26,15 @@ const Project = ({projects}) => {
                 <div className="project__metadata">
                     <p className="project__metadata-txt">Type de projet : {project.type}</p>
                     <p className="project__metadata-txt">Démaré en : {project.start_date}</p>
-                    <p className="project__metadata-txt">Mentor : {project.mentor}</p>
-                    <p className="project__metadata-txt">N° du projet : {project.number}</p>
+                    <p className="project__metadata-mentor">Mentor : {project.mentor}</p>
+                    <p className="project__metadata-number">N° du projet : {project.number}</p>
                 </div>
             </section>
             <section className='project__carousel'>
-                <Carousel>
+                <Carousel> 
                     {project.images.map((image, index) => (
                         <div>
-                            <img src={image} alt={`carousselImage-${index}`} className='project-image' key={`project${project.number}-image${index}`}/>
+                            <img src={image} alt={`carousselImage-${index}`} className='project__image' key={`project${project.number}-image${index}`}/>
                         </div>
                         
                     ))}
@@ -65,7 +65,6 @@ const Project = ({projects}) => {
                     </section>
                 )
             }
-           
         </div>
     )
 }

@@ -31,6 +31,10 @@
 .project__logo {
     max-height: 60px;
     width: auto;
+
+    @media (max-width: 767px) {
+        max-height: 35px;
+    }
 }
 
 .project__metadata {
@@ -44,11 +48,41 @@
     box-sizing: border-box;
 
     padding: 0px 80px;
+
+    column-gap: 20px;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        padding: 0px 40px; 
+    }
+    @media (max-width: 767px) {
+        padding: 0px 20px;
+    }
 }
 
 .project__metadata-txt {
     font-size: 14px;
     color: #626262;
+    text-align: center;
+}
+
+.project__metadata-mentor {
+    font-size: 14px;
+    color: #626262;
+    text-align: center;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.project__metadata-number {
+    font-size: 14px;
+    color: #626262;
+    text-align: center;
+
+    @media (max-width: 991px) {
+        display: none;
+    }
 }
 
 .project__main {
@@ -65,6 +99,15 @@
     box-sizing: border-box; 
 
     column-gap: 25px;
+
+    flex-wrap: wrap;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        padding: 0px 40px;
+    }
+    @media (max-width: 767px) {
+        padding: 0px 20px;
+    }
 }
 
 
@@ -81,7 +124,14 @@
 
     box-sizing: border-box; 
 
-    column-gap: 25px;
+    gap: 25px;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        padding: 0px 40px;
+    }
+    @media (max-width: 767px) {
+        padding: 0px 20px;
+    }
 }
 
 .project__bloc {
@@ -91,7 +141,7 @@
     align-items: flex-start;
 
     flex: 1;
-    min-width: 200px;
+    min-width: 260px;
 
     height: max-content;
 

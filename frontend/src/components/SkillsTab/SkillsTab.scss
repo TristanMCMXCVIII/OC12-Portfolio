@@ -1,9 +1,19 @@
 .skills-tab {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px; 
 
     width: 100%;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    @media (min-width: 500px) and (max-width: 767px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 499px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .skill__container {
@@ -21,6 +31,8 @@
 
     border: 1px solid #C8C8C8;
     border-radius: 10px;
+
+    text-align: center;
 
     &> img {
         height: 60px;

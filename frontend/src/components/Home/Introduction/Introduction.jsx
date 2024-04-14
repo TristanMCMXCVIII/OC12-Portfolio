@@ -2,7 +2,9 @@ import React from 'react';
 import { NavLink } from 'react-router-dom'
 
 import logoTN from '../../../assets/TN.svg';
+
 import './Introduction.scss';
+import '../../../styles/buttons.scss';
 
 const Introduction = () => {
     return (
@@ -11,7 +13,7 @@ const Introduction = () => {
             <h1>Tristan NOCENT</h1>
             <p className='introduction__sub-title'>INTÉGRATEUR WEB</p>
             <p className='introduction__description'>Portfolio conclusion de mon alternance intégrateur web React avec OpenClassrooms</p>
-            <NavLink to="/contact" className='button__primary'>                  
+            <NavLink to="/contact" className='button__primary--lg'>                  
                         Contacter
             </NavLink>
         </div>

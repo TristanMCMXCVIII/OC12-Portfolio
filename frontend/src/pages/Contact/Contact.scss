@@ -20,8 +20,19 @@
 
     row-gap: 20px;
 
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
+
     padding: 0px 80px;
+
+    box-sizing: border-box;
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        padding: 0px 40px;
+    }
+    @media (max-width: 767px) {
+        padding: 0px 20px;
+    }
 
     &> label {
         color: #252525;
