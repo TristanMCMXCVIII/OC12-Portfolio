@@ -1,4 +1,4 @@
-[
+[ 
     {
         "id": "proj_11",
         "title": "Projet 11 : Implémentez le front-end d’une application bancaire avec React",
@@ -44,7 +44,8 @@
                 "image": "/images/skills/redux.png",
                 "description": "Management de state"
             }
-        ]
+        ],
+        "github": "https://github.com/TristanMCMXCVIII/OC11-ArgentBank-FrontEnd"
     },
     {
         "id": "proj_10",
