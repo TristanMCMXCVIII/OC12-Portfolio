@@ -85,7 +85,8 @@
                 "image": "/images/skills/react.png",
                 "description": "Framework frontend"
             }
-        ]
+        ],
+        "github": "https://github.com/TristanMCMXCVIII/OC10-724Events"
     },
     {
         "id": "proj_09",
@@ -132,7 +133,8 @@
                 "image": "/images/skills/wave.png",
                 "description": "Ausit accessibilité"
             }
-        ]
+        ],
+        "github": "https://github.com/TristanMCMXCVIII/OC9-optim"
     },
     {
         "id": "proj_08",
@@ -177,7 +179,8 @@
                 "image": "/images/skills/react.png",
                 "description": "Framework frontend"
             }
-        ]
+        ],
+        "github": "https://github.com/TristanMCMXCVIII/OC8-KASA"
     },
     {
         "id": "proj_07",
@@ -273,7 +276,8 @@
                 "image": "/images/skills/swagger.png",
                 "description": "Documentation API"
             }
-        ]
+        ],
+        "github": "https://github.com/TristanMCMXCVIII/OC-Projet6"
     },
     {
         "id": "proj_05",
@@ -317,7 +321,8 @@
                 "image": "/images/skills/js.png",
                 "description": "Logique web"
             }
-        ]
+        ],
+        "github": "https://github.com/TristanMCMXCVIII/OC-Projet5"
     },
     {
         "id": "proj_04",
@@ -371,7 +376,8 @@
                 "image": "/images/skills/sass.png",
                 "description": "Préprocesseur CSS"
             }
-        ]
+        ],
+        "github":"https://github.com/TristanMCMXCVIII/OC-Project4"
     },
     {
         "id": "proj_03",

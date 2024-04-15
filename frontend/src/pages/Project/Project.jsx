@@ -8,6 +8,8 @@ import SkillsTab from '../../components/SkillsTab/SkillsTab.jsx';
 import './Project.scss';
 import Carousel from '../../components/Carousel/Carousel.jsx';
 
+import githubImg from "../../assets/github.png";
+
 const Project = ({projects}) => {
  
     const { projectId } = useParams();
@@ -55,16 +57,20 @@ const Project = ({projects}) => {
                     <h3>COMPETENCES</h3>
                     <SkillsTab skills={project.skills}/>
                 </div>
-            </section>
-            {
+
+                {
                 project.github && (
-                    <section className='project__main'>
+                 
                         <div className="project__bloc">
-                            <h3>LIENS</h3>
+                            <h3>LIEN GITHUB</h3>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer">
+                                <img src={githubImg} alt="logo lien vers github" />
+                            </a>
                         </div>
-                    </section>
                 )
             }
+            </section>
+
         </div>
     )
 }

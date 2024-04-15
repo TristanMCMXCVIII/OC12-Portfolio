@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { useDispatch } from 'react-redux';
 import { setSkillsData } from '../store/skillsDataSlice.js';
@@ -60,7 +60,7 @@ function App() {
 
     // --- COMPONENT ---
     return (
-        <HashRouter>
+        <Router>
             <ScrollToTop closeSidebar={closeSidebar}/>
             <Header toggleSidebar={toggleSidebar} />
             <Sidebar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
@@ -73,7 +73,7 @@ function App() {
                 <Route path="/*" element={<Error/>}/>
             </Routes>  
             <Footer/>
-        </HashRouter>
+        </Router>
     );
 }
 
